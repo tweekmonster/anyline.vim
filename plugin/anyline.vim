@@ -19,7 +19,14 @@
 " FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
 " IN THE SOFTWARE.
 
-if !exists('g:anyline')
+if exists('g:anyline')
+  let g:anyline += 1
+  finish
+endif
+
+let g:anyline = 1
+
+if !exists('g:anyline_custom_statusline')
   let g:anyline_custom_statusline = 'let g:anyline_custom_statusline = "Anything you want!"'
 endif
 
