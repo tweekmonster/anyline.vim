@@ -20,6 +20,7 @@
 " IN THE SOFTWARE.
 
 if exists('g:anyline')
+  let g:anyline += 1
   finish
 endif
 
