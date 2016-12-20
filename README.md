@@ -1,4 +1,4 @@
-# anyline.vim
+# anyline.vim [![Build Status](https://travis-ci.org/tweekmonster/anyline.vim.svg?branch=master)](https://travis-ci.org/tweekmonster/anyline.vim)
 
 The most customizable statusline plugin that has ever existed for Vim!
 
